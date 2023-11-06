@@ -1,7 +1,6 @@
 /* Стилизация аккордеона */
 .accordion {
     display: inline-block;
-    min-width: 730px;
 }
 
 .accordion__item {
@@ -15,7 +14,7 @@
 }
 
 .accordion__item[open] {
-    padding: 24px 32px 32px 32px;
+    padding-bottom: 32px;
 }
 
 .accordion__item:last-child {
