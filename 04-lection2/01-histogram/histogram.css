@@ -23,7 +23,7 @@
 }
 
 .histogram__description {
-    color: var(--black, #212429);
+    color: var(--black);
     font-size: 20px;
     line-height: 1.3;
 }
