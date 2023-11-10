@@ -30,13 +30,20 @@
 
 .histogram__data {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: stretch;
+    flex-wrap: nowrap;
+    width: 100%;
     align-items: flex-end;
-    flex-basis: 50%;
+    flex-direction: row;
+    height: 50px;
 }
 
 .histogram__data-item {
     background: var(--blue);
-    flex-basis: 10px;
+    flex: 1 0 auto;
+    margin-right: 1px;
+}
+
+.histogram__data-item:last-child {
+    margin-right: 0;
 }
