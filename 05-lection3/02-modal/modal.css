@@ -17,12 +17,12 @@
     max-width: calc(100vh - 100px);
     border-radius: 8px;
     background: var(--white);
-    opacity: 1;
+    padding: 30px 40px 33px 40px;
+    position: relative;
 }
 
 .modal__header {
-    padding: 30px 40px 7px 40px;
-    position: relative;
+    padding-bottom: 7px;
 }
 
 .modal__close {
@@ -44,7 +44,6 @@
 }
 
 .modal__body {
-    padding: 7px 40px 33px 40px;
     color: var(--grey-4);
     font-size: 16px;
     font-style: normal;

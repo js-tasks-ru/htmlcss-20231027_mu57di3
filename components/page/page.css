@@ -8,12 +8,10 @@
 
 .page__header {
     background: var(--white);
-    height: 82px;
 }
 
 .page__main {
     width: 100%;
-    max-width: 1110px;
     justify-self: center;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -21,11 +19,11 @@
 }
 
 .page__footer {
-    padding: 56px 10px;
+    padding-top: 72px;
+    padding-bottom: 56px;
 }
 
 .page__about {
-    margin: auto;
     color: var(--grey-3);
     font-size: 12px;
     font-style: normal;
