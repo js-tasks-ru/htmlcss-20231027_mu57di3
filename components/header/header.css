@@ -1,0 +1,17 @@
+.header {
+    min-height: 50px;
+    color: #212429;
+}
+
+.header__content {
+    width: 1120px;
+    margin: auto;
+    padding: 96px 0 77px 0;
+}
+
+.header__title {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 64px;
+}

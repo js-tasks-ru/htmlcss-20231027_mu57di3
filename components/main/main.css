@@ -1,0 +1,10 @@
+.main {
+    background: #F9FAFC;
+    width: 100%;
+}
+
+.main__section {
+    width: 1120px;
+    margin: auto;
+    padding: 10px;
+}
