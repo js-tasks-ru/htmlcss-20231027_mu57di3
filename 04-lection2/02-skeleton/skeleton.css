@@ -40,14 +40,14 @@
     margin-bottom: 0;
 }
 
-.skeleton_w100 {
+.skeleton__width_100 {
     width: 100%;
 }
 
-.skeleton_w40 {
+.skeleton__width_40 {
     width: 40%;
 }
 
-.skeleton_w60 {
+.skeleton__width_60 {
     width: 60%;
 }
