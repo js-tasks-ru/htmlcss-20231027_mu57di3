@@ -31,26 +31,23 @@
 }
 
 .skeleton__bar {
+    margin-bottom: 8px;
     background: linear-gradient(93deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
     height: 20px;
-}
-
-.skeleton__bar {
-    margin-bottom: 8px;
 }
 
 .skeleton__bar:last-child {
     margin-bottom: 0;
 }
 
-.skeleton__w100 {
+.skeleton_w100 {
     width: 100%;
 }
 
-.skeleton__w40 {
+.skeleton_w40 {
     width: 40%;
 }
 
-.skeleton__w60 {
+.skeleton_w60 {
     width: 60%;
 }
