@@ -40,14 +40,14 @@
     margin-bottom: 0;
 }
 
-.skeleton__width_100 {
+.skeleton__bar_width_100 {
     width: 100%;
 }
 
-.skeleton__width_40 {
+.skeleton__bar_width_40 {
     width: 40%;
 }
 
-.skeleton__width_60 {
+.skeleton__bar_width_60 {
     width: 60%;
 }
