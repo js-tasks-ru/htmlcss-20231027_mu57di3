@@ -1,0 +1,15 @@
+.preview {
+    background: #F9FAFC;
+    padding: 68px 0;
+}
+
+.preview__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.preview__histogram {
+    flex-basis: 60%;
+}
