@@ -1,0 +1,15 @@
+.header {
+    color: #212429;
+}
+
+.header__content {
+    padding: 96px 0 77px 0;
+}
+
+.header__title {
+    color: var(--black);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+}

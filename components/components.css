@@ -1,4 +1,9 @@
+@import "./footer/footer.css";
+@import "./header/header.css";
 @import "./page/page.css";
+@import "./card/card.css";
+@import "./preview/preview.css";
+@import "./container/container.css";
 @import "./menu/menu.css";
 @import "./component/component.css";
-@import "./container/container.css";
+@import "../04-lection2/01-histogram/histogram.css";
