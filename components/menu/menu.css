@@ -29,11 +29,11 @@
     line-height: var(--link-line-height)
 }
 
-.menu__empty_item {
+.menu__item_empty {
     height: calc(var(--link-line-height) * var(--link-size));
 }
 
-.menu_active {
+.menu__link_active {
     color: #D84910;
     pointer-events: none;
 }
