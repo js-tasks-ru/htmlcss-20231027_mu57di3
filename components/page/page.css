@@ -1,11 +1,35 @@
 .page {
+    background: #F9FAFC;
+    display: grid;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 36px;
+}
 
+.page__header {
+    background: var(--white);
 }
 
 .page__main {
-    flex-grow: 1;
+    width: 100%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+}
+
+.page__footer {
+    padding-top: 72px;
+    padding-bottom: 56px;
+}
+
+.page__about {
+    color: var(--grey-3);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    text-align: center;
 }

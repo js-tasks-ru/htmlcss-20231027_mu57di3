@@ -4,4 +4,6 @@
 @import "./card/card.css";
 @import "./preview/preview.css";
 @import "./container/container.css";
+@import "./menu/menu.css";
+@import "./component/component.css";
 @import "../04-lection2/01-histogram/histogram.css";

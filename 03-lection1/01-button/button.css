@@ -25,11 +25,11 @@
     background: #2342C0;
 }
 
-.button-secondary {
+.button_secondary {
     background: var(--secondary);
 }
 
-.button-secondary:hover:not([disabled]) {
+.button_secondary:hover:not([disabled]) {
     background: #5028C6;
 }
 
@@ -39,10 +39,10 @@
     border: 1px solid var(--grey-3);
 }
 
-.button-alternate:hover:not([disabled]) {
+.button_alternate:hover:not([disabled]) {
     border-color: var(--black);
 }
 
-.button-alternate:disabled {
+.button_alternate:disabled {
     opacity: 0.3;
 }

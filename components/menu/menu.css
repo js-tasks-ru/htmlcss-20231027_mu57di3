@@ -1,0 +1,39 @@
+.menu {
+    width: 246px;
+    --link-size: 14px;
+    --link-line-height: 1.57;
+}
+
+.menu_header {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 16px;
+}
+
+.menu__item {
+    padding-bottom: 4px;
+}
+
+.menu__item:last-child {
+    padding-bottom: 0;
+}
+
+.menu__link {
+    color: var(--black);
+    font-size: var(--link-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--link-line-height)
+}
+
+.menu__item_empty {
+    height: calc(var(--link-line-height) * var(--link-size));
+}
+
+.menu__link_active {
+    color: #D84910;
+    pointer-events: none;
+}
